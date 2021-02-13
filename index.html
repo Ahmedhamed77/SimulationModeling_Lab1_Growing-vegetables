@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="index.css">
+    <title>Title</title>
+</head>
+<body>
+<div class="container">
+
+
+    <div class="state">
+        <div class="MoneyDiv">
+            <p>Money</p>
+            <input type="text" id="money" value="100">
+        </div>
+        <div class="speed">
+            <input type="range" name="rangeInput" min="1" max="7" onchange="updateTextInput(this.value);"><br>
+            <input type="text" id="speedRange" value="3">
+        </div>
+
+    </div>
+
+    <div class="content">
+
+        <div class="row1">
+            <div class="box" id="1" onClick="reply_click(this.id)"></div>
+            <div class="box" id="2" onClick="reply_click(this.id)"></div>
+            <div class="box" id="3" onClick="reply_click(this.id)"></div>
+        </div>
+        <div class="row2">
+            <div class="box" id="4" onClick="reply_click(this.id)"></div>
+            <div class="box" id="5" onClick="reply_click(this.id)"></div>
+            <div class="box" id="6" onClick="reply_click(this.id)"></div>
+        </div>
+        <di class="row3">
+            <div class="box" id="7" onClick="reply_click(this.id)"></div>
+            <div class="box" id="8" onClick="reply_click(this.id)"></div>
+            <div class="box" id="9" onClick="reply_click(this.id)"></div>
+        </di>
+       <div class="row4">
+           <div class="box" id="10" onClick="reply_click(this.id)"></div>
+           <div class="box" id="11" onClick="reply_click(this.id)"></div>
+           <div class="box" id="12" onClick="reply_click(this.id)"></div>
+       </div>
+
+    </div>
+
+</div>
+<script src="index.js"></script>
+<script src="Cell.js"></script>
+</body>
+</html>
